@@ -1,0 +1,17 @@
+<div class="container-fluid d-flex justify-content-center align-items-center register-container">
+    <div class="register-page">
+        <div class="register-form p-5">
+            <form [formGroup]="registerForm" (ngSubmit)="userAccess()">
+                <form> 
+                    <div class="mb-3">
+                      <input type="email" formControlName= "user" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su correo">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1 placeholder" placeholder="Ingrese su contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Aceptar</button>
+                  </form> 
+            </form>
+        </div>
+    </div>
+</div> 

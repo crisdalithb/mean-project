@@ -1,0 +1,11 @@
+
+.register-page{
+    border-radius: 27px;
+background: linear-gradient(145deg, #cac5cb, #f0eaf1);
+box-shadow:  9px 9px 18px #5a585a,
+             -9px -9px 18px #ffffff;
+}
+.register-container{
+    height: 100vh
+    
+}
